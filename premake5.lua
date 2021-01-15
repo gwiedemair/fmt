@@ -28,7 +28,3 @@ project "fmt"
 	filter "platforms:Shared"
 		kind "SharedLib"
 		defines "FMT_EXPORT"
-		postbuildcommands {
-			-- ("{COPY} \"%{wks.location}/bin/" .. outputdir .. "/FoWSI/*.dll\" %{cfg.targetdir}")
-		}
-
